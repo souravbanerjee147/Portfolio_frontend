@@ -212,7 +212,7 @@ export default function Projects() {
 
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/projects')
+    axios.get('https://portfolio-backend-262i.onrender.com/api/projects')
       .then((res) => {
         console.log("API Response:", res.data); 
         if (res.data && res.data.data) {

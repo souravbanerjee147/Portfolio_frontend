@@ -10,7 +10,7 @@ export default function Certification() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/certifications')
+    axios.get('https://portfolio-backend-262i.onrender.com/api/certifications')
       .then((res) => {
         if (res.data && res.data.success) {
           setCredentials(res.data.data);
@@ -72,7 +72,7 @@ export default function Certification() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs font-medium text-[var(--accent)] hover:text-[var(--accent-hover)] border border-[var(--accent-border)] px-3 py-1.5 rounded-lg transition-all duration-200 hover:bg-[var(--accent-bg)]"
-                    onClick={() => console.log("Opening PDF:", cert.certificateUrl)} // ← Add this
+                    onClick={() => console.log("Opening PDF:", cert.certificateUrl)}
                   >
                     <svg
                       className="w-4 h-4"

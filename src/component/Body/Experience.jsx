@@ -10,7 +10,7 @@ export default function Experience() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/experience')
+    axios.get('https://portfolio-backend-262i.onrender.com/api/experience')
       .then((res) => {
         if (res.data && res.data.success) setExperiences(res.data.data);
         setLoading(false);

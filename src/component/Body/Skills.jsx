@@ -15,7 +15,7 @@ export default function Skills() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/skills')
+    axios.get('https://portfolio-backend-262i.onrender.com/api/skills')
       .then((res) => {
         if (res.data && res.data.success) setSkillCategories(res.data.data);
         setLoading(false);

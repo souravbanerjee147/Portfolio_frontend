@@ -9,7 +9,7 @@ export default function Education() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/education')
+    axios.get('https://portfolio-backend-262i.onrender.com/api/education')
       .then((res) => {
         if (res.data && res.data.success) setEducationList(res.data.data);
         setLoading(false);

@@ -65,7 +65,8 @@ export default function Contact() {
     setSending(true);
 
     try {
-      const response = await axios.post('http://localhost:8080/api/contact', formData);
+      // const response = await axios.post('http://localhost:8080/api/contact', formData);
+      const response = await axios.post('https://portfolio-backend-262i.onrender.com/api/contact', formData);
       if (response.data && response.data.success) {
         alert(`Thank you, ${formData.name}! Your message has been sent successfully.`);
         setFormData({ name: '', email: '', message: '' });
