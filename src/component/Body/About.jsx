@@ -8,7 +8,7 @@ export default function About() {
 
     // const PROFILE_IMAGE_URL = "https://lh3.googleusercontent.com/d/1i-HqNeDq9-4wW0SkR6x8w7O_7YD4VJ8g";
     // const PROFILE_IMAGE_URL = "../../assets/PHOTO-2026-07-28-23-35-32.jpg";
-    const profilePic = "/PHOTO-2026-07-28-23-35-32.jpg";
+    const profilePic = "/profile.jpg";
 
     return (
         <div className="flex-grow flex flex-col justify-center items-center px-6 md:px-16 py-16 text-center gap-6 animate-in fade-in duration-300 select-none max-w-3xl mx-auto">
