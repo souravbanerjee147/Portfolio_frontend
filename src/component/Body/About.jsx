@@ -1,6 +1,8 @@
 // frontend/src/component/Body/About.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+// IMPORT THE IMAGE HERE
+import profilePic from '../../assets/PHOTO-2026-07-28-23-35-32.jpg'
 
 export default function About() {
 
