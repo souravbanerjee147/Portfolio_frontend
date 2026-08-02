@@ -13,7 +13,7 @@ export default function Header({ currentTheme, onThemeChange }) {
     return () => document.removeEventListener("mousedown", closeMenu);
   }, []);
 
-  const DRIVE_LINK = "https://drive.google.com/file/d/1TDMZYo0SYxIHLJMGsh3Y41AexWp3jFyr/view?usp=sharing";
+  const DRIVE_LINK = "https://drive.google.com/file/d/14zxkZzwJrGUqEcmeXVy-1_kI9wuLK1qL/view?usp=drive_link";
 
   const navLinks = [
     { target: "#about", label: "About" },
