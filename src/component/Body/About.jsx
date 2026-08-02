@@ -1,11 +1,12 @@
 // frontend/src/component/Body/About.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-// IMPORT THE IMAGE HERE
+// IMPORT THE PROFILE IMAGE
 // import profilePic from '../../assets/PHOTO-2026-07-28-23-35-32.jpg'
 
 export default function About() {
 
+    // profile images
     // const PROFILE_IMAGE_URL = "https://lh3.googleusercontent.com/d/1i-HqNeDq9-4wW0SkR6x8w7O_7YD4VJ8g";
     // const PROFILE_IMAGE_URL = "../../assets/PHOTO-2026-07-28-23-35-32.jpg";
     const profilePic = "/profile.jpg";
